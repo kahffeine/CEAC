@@ -1,0 +1,152 @@
+html, body{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Arima Madurai', 'Open Sans';
+    font-family: 'Arima Madurai', 'Open Sans';
+}
+
+h1, h2 {
+    color: #dc3545;
+}
+
+p { 
+    font-size: 18px;
+}
+
+
+/*Index CSS*/
+
+.logoo img {
+    width: 50px;
+    height: 50px;
+}
+
+.mainx {
+    margin-top: 6rem;
+}
+
+.left {
+    font-family: Open Sans;
+    align-items: center;
+}  
+
+.left img {
+    height: 12rem;
+    width: 12rem;
+    margin: 4px;
+    border: solid #dc3545;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.carousel-item {
+    position: relative;
+    border: solid #dc3545;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.carousel-item img {
+    height: 20rem;
+    min-width: 200px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    outline: #dc3545;
+    background-color: #dc3545;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid #dc3545;
+}
+
+
+/*Footer CSS*/
+
+.footer {
+    margin-top: 3rem;
+    padding: 20px;
+    display: flex;
+    background-color: #dc3545;
+    width: 100%;
+}
+
+.footer ul {
+    flex: 1;
+    text-align: right;
+}
+
+.footer ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.ic:hover {
+    transform: scale(1.2);
+} 
+
+
+/* Sobre CSS */
+
+.abtimg {
+    display: flex;
+    border: solid #F25757;
+    border-radius: 20px;
+}
+
+.contentx p {
+    font-size: 18px;
+}
+
+
+/* Catálogo CSS */
+
+.catmain {
+    margin-top: 2rem;
+}
+
+.catalog {
+    height: 12rem;
+    width: 12rem;
+    display: flex;
+    opacity: 0.8;
+    cursor: pointer;
+    border: solid #F25757;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.catalog:hover {
+    opacity: 1.0;
+}
+
+.catalogtxt{
+    padding-left: 5rem;
+    margin-top: 16px;
+}
+
+#cattxt h1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: Arima Madurai;
+    margin-top: 7rem;
+}
+
+
+/* Contactos CSS */
+
+.info {
+    margin-bottom: 4rem;
+    margin-top: 5rem;
+}
+
+.info ul li {
+    padding: 2px;
+    list-style: none;
+    font-family: Open Sans;
+}
